@@ -8,7 +8,7 @@ import styled from 'styled-components';
 const TypeWrapper = styled.div`
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: start
 `;
 
 const TypeCell: FC<{ isIncoming: boolean }> = ({ isIncoming }) => {

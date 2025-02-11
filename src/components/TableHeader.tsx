@@ -7,12 +7,12 @@ import ArrowDownIcon from '@icons/arrow-down.svg?react';
 
 
 const HEADER_CONFIG = [
-  { title: 'Тип', size: 54 },
-  { key: 'date', title: 'Время', size: 88 },
-  { title: 'Сотрудник', size: 129 },
-  { title: 'Звонок', size: 325 },
-  { title: 'Источник', size: 214 },
-  { title: 'Оценка', size: 230 },
+  { title: 'Тип' },
+  { key: 'date', title: 'Время' },
+  { title: 'Сотрудник' },
+  { title: 'Звонок' },
+  { title: 'Источник' },
+  { title: 'Оценка' },
   { key: 'duration', title: 'Длительность', size: 300 },
 ];
 
@@ -25,6 +25,7 @@ const HeaderContent = styled.div`
 const HeaderCellWrapper = styled.th<{ size?: number }>(
   ({ size }) => css`
       height: 34px;
+      width: 200px;
       min-width: ${size}px;
       white-space: nowrap;
       color: #5E7793;
@@ -36,7 +37,7 @@ const HeaderCellWrapper = styled.th<{ size?: number }>(
           }
       }
 
-      @media (max-width: 1400px) {
+      @media (max-width: 1200px) {
           min-width: fit-content;
 
           &:last-child {
