@@ -54,7 +54,7 @@ const Loader: FC<
   const [isShow, setShow] = useState(false);
 
   useEffect(() => {
-    const timeoutId = setTimeout(() => setShow(true), 100);
+    const timeoutId = setTimeout(() => setShow(true), 0);
     return () => clearTimeout(timeoutId);
   }, [setShow]);
 
