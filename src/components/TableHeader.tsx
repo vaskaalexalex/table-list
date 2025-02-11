@@ -35,6 +35,16 @@ const HeaderCellWrapper = styled.th<{ size?: number }>(
               justify-content: end;
           }
       }
+
+      @media (max-width: 1400px) {
+          min-width: fit-content;
+
+          &:last-child {
+              ${HeaderContent} {
+                  min-width: 200px;
+              }
+          }
+      }
   `,
 );
 
