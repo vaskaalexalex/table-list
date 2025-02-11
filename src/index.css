@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./assets/fonts/SF-Pro-Display-Regular.otf') format('opentype'),
+    url('./assets/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 400;
+    min-height: 100vh;
+    background: #D4DFF3 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 700; /* Жирное начертание */
+}
