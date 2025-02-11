@@ -11,7 +11,6 @@ const TypeWrapper = styled.div`
     justify-content: center
 `;
 
-
 const TypeCell: FC<{ isIncoming: boolean }> = ({ isIncoming }) => {
   return (
     <TypeWrapper>
